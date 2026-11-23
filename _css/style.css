@@ -1,13 +1,52 @@
-*{
-    font-family:'Courier New', Courier, monospace;
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
 }
 
-.header{
+.header {
     flex: 1;
     flex-direction: column;
     text-align: center;
     color: white;
     background-color: orangered;
-    padding: 10px;
-    margin: -7px;
+    padding: 18px;
+}
+
+.graal {
+    display: flex;
+    justify-content: space-between;
+    min-height: 830px;
+    
+}
+
+.item1 {
+    display: flex;
+    color: white;
+    background: cyan;
+    text-align: center;
+    width: 500px;
+    justify-content: center;
+}
+
+.item2 {
+    color: white;
+    background: darkblue;
+    text-align: center;
+    width: 960px;
+}
+
+.item3 {
+    color: white;
+    background: green;
+    text-align: center;
+    width: 500px;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    color: white;
+    background: rgb(255, 58, 124) ;
+    height: 50px;
+    font-size: large;
 }
