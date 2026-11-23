@@ -26,6 +26,7 @@
     text-align: center;
     width: 500px;
     justify-content: center;
+    padding: 10px;
 }
 
 .item2 {
@@ -33,6 +34,7 @@
     background: darkblue;
     text-align: center;
     width: 960px;
+    padding: 10px;
 }
 
 .item3 {
@@ -40,11 +42,12 @@
     background: green;
     text-align: center;
     width: 500px;
+    padding: 10px;
 }
 
 .footer{
     display: flex;
-    text-align: center;
+    justify-content: center;
     color: white;
     background: rgb(255, 58, 124) ;
     height: 50px;
